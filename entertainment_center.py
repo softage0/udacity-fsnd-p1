@@ -23,7 +23,7 @@ starwars_tfa = media.Movie("Star Wars: The Force Awakens",
                            "J. J. Abrams",
                            "Star Wars is an American epic space opera franchise,\
                             centered on a film series created by George Lucas.",
-                           "https://upload.wikimedia.org/wikipedia\/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
+                           "https://upload.wikimedia.org/wikipedia\/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",  # noqa
                            "https://www.youtube.com/watch?v=sGbxmsDFVnE")
 
 terminator_genisys = media.Movie("Terminator Genisys",
@@ -44,5 +44,6 @@ chef = media.Movie("Chef",
                    "https://www.youtube.com/watch?v=mLuixZwiIdU")
 
 
+# Append each movie to a list and call open movies
 movies = [toy_story, avatar, starwars_tfa, terminator_genisys, chef]
 fresh_tomatoes.open_movies_page(movies)

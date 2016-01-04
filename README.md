@@ -1,4 +1,4 @@
-# [Fresh Tomatoes Movie Trailers](http://getbootstrap.com)
+# [Fresh Tomatoes Movie Trailers]
 
 Fresh Tomatoes is a Movie Trailers List to show the movie details and trailers I like.
 
